@@ -1,15 +1,10 @@
 #include <math.h>
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <assert.h>
-#include <limits.h>
-#include <stdbool.h>
-
+#define ll long long int
 int main() {
-    int n; 
+    ll n; 
     scanf("%d", &n);
-    int a[n],i,j,count=1,k;
+    ll a[n],i,j,count=1,k;
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
