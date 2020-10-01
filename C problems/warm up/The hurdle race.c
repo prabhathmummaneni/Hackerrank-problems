@@ -21,9 +21,7 @@ int main(){
         {
             if(a[i]<a[j])
             {
-                m=a[i];
-                a[i]=a[j];
-                a[j]=m;
+                swap(a[i],a[j]);
             }
         }
     }
